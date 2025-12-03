@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tower Bridge</title>
+
+  <link rel="stylesheet" href="../Aptech-Project/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+  <style>
+    .parent {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url('../Aptech-Project/images/premium_photo-1682799116921-de130f76c1d0.jpg') center/cover no-repeat;
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .bridge-details {
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    .bridge-details h1 {
+      font-size: 2.8rem;
+      margin-bottom: 20px;
+      color: #ffd700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      position: relative;
+      top: -30px;
+    }
+
+    .bridge-details p {
+      font-size: 1.1rem;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.7;
+      color: #f2f2f2;
+    }
+
+    .facts {
+      margin-top: 40px;
+      font-size: 1.2rem;
+      line-height: 1.9;
+    }
+
+    .facts h3 {
+      color: #ffcc33;
+      margin-bottom: 15px;
+      font-size: 1.6rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="parent">
+
+  <!-- NAV (same copy) -->
+  <nav>
+    <div class="logo">Incredible Bridges</div>
+    <div class="hamburger">
+      <div></div><div></div><div></div>
+    </div>
+    <ul>
+      <li><a href="index.html"><i class="fa-solid fa-house"></i> Home</a></li>
+      <li><a href="about.html"><i class="fa-solid fa-address-card"></i> About</a></li>
+      <li><a href="gallery.html"><i class="fa-solid fa-image"></i> Gallery</a></li>
+      <li><a href="contact.html"><i class="fas fa-phone"></i> Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- CONTENT -->
+  <div class="bridge-details">
+
+    <h1>Tower Bridge</h1>
+
+    <p>
+      Tower Bridge is one of London's most iconic landmarks. Completed in 1894,
+      it is a combined drawbridge and suspension bridge, famous for its twin towers,
+      Victorian architecture, and stunning views over the River Thames.
+    </p>
+
+    <div class="facts">
+      <h3>Interesting Facts</h3>
+
+      <p>🏛 Built In: <strong>1894</strong></p>
+      <p>⚙ Type: <strong>Suspension + Bascule Bridge</strong></p>
+      <p>🌉 Location: <strong>River Thames, London</strong></p>
+      <p>👀 Famous For: <strong>Glass Floor Walkway</strong></p>
+      <p>🚢 Special Feature: <strong>Bridge lifts to allow ships to pass</strong></p>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- FOOTER (same copy) -->
+<footer class="bg-light text-dark pt-5 pb-3 mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <h5 class="fw-bold text-uppercase" style="color: var(--primary-color);">Incredible Bridges</h5>
+        <p>Connecting the world — one bridge at a time.</p>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h6 class="fw-bold">Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="index.html" class="text-dark text-decoration-none">Home</a></li>
+          <li><a href="about.html" class="text-dark text-decoration-none">About</a></li>
+          <li><a href="gallery.html" class="text-dark text-decoration-none">Gallery</a></li>
+          <li><a href="contact.html" class="text-dark text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-3">
+        <h6 class="fw-bold">Follow Us</h6>
+        <a href="#" class="text-dark me-3"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-dark me-3"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-dark"><i class="bi bi-twitter"></i></a>
+      </div>
+    </div>
+    <hr>
+    <div class="text-center">
+      <p class="mb-0">&copy; 2025 Incredible Bridges | Designed by Usman</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
